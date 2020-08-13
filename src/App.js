@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
-import Search from "./components/Search";
+import EmployeeContainer from './components/EmployeeContainer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Search/>
+      <EmployeeContainer/>
     </div>
   );
 }
