@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import API from "../utils/API";
 import Search from "./Search";
 import Table from "./Table";
+import Navbar from "./Navbar";
 
 class EmployeeContainer extends Component {
     state = {
@@ -44,7 +45,7 @@ class EmployeeContainer extends Component {
 
       return (
         <div>
-        <h1>Employee Directory</h1>
+        <Navbar/>
           <br></br>
           <div>
             <h4>Search</h4>
