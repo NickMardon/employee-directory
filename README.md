@@ -6,6 +6,9 @@ Employee Directory is a react.js application that user a random user generating 
 
 ## Screenshots
 
+<img width="2204" alt="Screen Shot 2020-08-17 at 9 25 42 AM" src="https://user-images.githubusercontent.com/64296192/90419997-38aa5c00-e06c-11ea-807a-e2b1eceb4365.png">
+
+
 ## Table of Contents
 
 * [Installation](#installation)
