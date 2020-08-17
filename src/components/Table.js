@@ -8,7 +8,9 @@ const style = {
     margin: "auto"
 }
 
-function Table({ employees, handleSort }) {
+function Table(props) {
+    const employees = props.employees;
+    const handleSort = props.handleSort
     return (
         <table style={style}>
         <tbody>
